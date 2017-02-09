@@ -1,0 +1,29 @@
+/*页面初始化*/
+*{
+    margin:0px;
+    padding: 0px;
+}
+html{
+    font-size: 100px;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 62.5%;
+    color:#000;
+   opacity: 0;
+    overflow: hidden;
+}
+.clear:after{
+    clear:both;
+    content:'';
+    display:block;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+}
+input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none; }
